@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ragnor live — Notes Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">ragnor live</span>
+      </div>
+      <p class="tagline">Your class notes — all in one place ✨</p>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero reveal">
+    <h1 class="hero-title">
+      Subjects. Chapters.<br/>
+      <span class="hero-accent">The Best Notes.</span>
+    </h1>
+    <p class="hero-sub">Browse by subject, pick your chapter, and grab the notes you need. It's that easy.</p>
+  </section>
+
+  <!-- ============ SUBJECTS GRID ============ -->
+  <section class="section reveal" id="subjects">
+    <h2 class="section-title">📚 Subjects</h2>
+    <div class="subjects-grid" id="subjects-grid">
+      <!-- JS renders cards here -->
+    </div>
+  </section>
+
+  <!-- ============ CHAPTER VIEW (hidden by default) ============ -->
+  <section class="section reveal" id="chapters-section" style="display:none;">
+    <button class="back-btn" id="back-btn">← Back to Subjects</button>
+    <h2 class="section-title" id="chapters-title">Chapters</h2>
+    <div class="chapters-list" id="chapters-list">
+      <!-- JS renders chapters here -->
+    </div>
+  </section>
+
+  <!-- ============ NOTES VIEW (hidden by default) ============ -->
+  <section class="section reveal" id="notes-section" style="display:none;">
+    <button class="back-btn" id="back-to-chapters">← Back to Chapters</button>
+    <h2 class="section-title" id="notes-title">Notes</h2>
+    <div class="notes-container" id="notes-container">
+      <!-- JS renders notes here -->
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer reveal">
+    <div class="footer-inner">
+      <p class="footer-brand">ragnor live</p>
+      <p class="footer-copy">Built with ❤️ for students who actually want to pass.</p>
+      <p class="footer-year">© 2026</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
