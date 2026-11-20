@@ -1,0 +1,20 @@
+{
+  "collectionSlug": "codereel",
+  "name": "ragnor live — Notes Library",
+  "tagline": "A bold, mobile-friendly notes library for your class with subjects, chapters, formulas, and curated notes all in one place.",
+  "creatorName": "ragnor live",
+  "creatorProfile": "https://github.com/Rachit-ai",
+  "category": "Education",
+  "builtWith": "Antigravity",
+  "tags": [
+    "education",
+    "notes",
+    "student",
+    "study-guide",
+    "dark-mode"
+  ],
+  "description": "A clean, responsive, and mobile-friendly notes library for students. Features curated notes, quick references, and formula sheets across Physics, Mathematics, Chemistry, Biology, English, and Computer Science with smooth scroll animations, interactive chapter drill-downs, and a playful dark theme.",
+  "screenshotUrls": [
+    "https://files.embarko.ai/cmwmnmhnk03jr1ze1c66x423v/cmwos73y9004wtn4i0x7o6hma/screenshot.png"
+  ]
+}
